@@ -448,9 +448,38 @@ blocks:
       2:
         name: Birch Wood
         tex: [5, 7]
+        tex_direction:
+          TOP: [13, 13]
+          BOTTOM: [13, 13]
       3:
         name: Jungle Wood
         tex: [9, 9]
+      8: # bit 0x8 - "Sideways"
+        name: Wood (Sideways)
+        aka: Oak Wood (Sideways)
+        tex: [4, 1]
+        tex_direction:
+          FORWARD: [5, 1]
+          BACKWARD: [5, 1]
+      9:
+        name: Pine Wood (Sideways)
+        aka: Redwood (Sideways), Spruce Wood (Sideways)
+        tex: [4, 7]
+        tex_direction:
+          FORWARD: [5, 1]
+          BACKWARD: [5, 1]
+      10:
+        name: Birch Wood (Sideways)
+        tex: [5, 7]
+        tex_direction:
+          FORWARD: [13, 13]
+          BACKWARD: [13, 13]
+      11:
+        name: Jungle Wood (Sideways)
+        tex: [9, 9]
+        tex_direction:
+          FORWARD: [5, 1]
+          BACKWARD: [5, 1]
 
   - id: 18
     idStr: leaves
@@ -2027,16 +2056,46 @@ blocks:
     data:
       0:
         name: Acacia Wood
-        tex: [4, 1]
+        tex: [9, 14]
+        tex_direction:
+          TOP: [11, 14]
+          BOTTOM: [11, 14]
       1:
         name: Dark Oak Wood
-        tex: [4, 7]
+        tex: [10, 14]
+        tex_direction:
+          TOP: [12, 14]
+          BOTTOM: [12, 14]
       2:
         name: Acacia Wood (Placeholder)
         tex: [4, 1]
       3:
         name: Dark Oak Wood (Placeholder)
         tex: [4, 7]
+      8: # bit 0x8 - "Sideways"
+        name: Acacia Wood (Sideways)
+        tex: [9, 14]
+        tex_direction:
+          FORWARD: [11, 14]
+          BACKWARD: [11, 14]
+      9:
+        name: Dark Oak Wood (Sideways)
+        tex: [10, 14]
+        tex_direction:
+          FORWARD: [12, 14]
+          BACKWARD: [12, 14]
+      10:
+        name: Future Wood (Placeholder) (Sideways)
+        tex: [4, 1]
+        tex_direction:
+          FORWARD: [5, 1]
+          BACKWARD: [5, 1]
+      11:
+        name: Future Wood (Placeholder) (Sideways)
+        tex: [4, 7]
+        tex_direction:
+          FORWARD: [5, 1]
+          BACKWARD: [5, 1]
 
   - id: 163
     idStr: stairsWoodAcacia
